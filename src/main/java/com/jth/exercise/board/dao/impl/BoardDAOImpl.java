@@ -20,6 +20,7 @@ public class BoardDAOImpl implements BoardDAO{
 	@Override
 	public int insertBoard(BoardVO boardVO) {
 		
+		
 		return session.insert(namespace + "insertBoard", boardVO);
 	}
 
