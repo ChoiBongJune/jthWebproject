@@ -21,8 +21,7 @@ public class BoardDAOImpl implements BoardDAO{
 	public int insertBoard(BoardVO boardVO) {
 		
 		
-		
-		
+	
 		
 		
 		return session.insert(namespace + "insertBoard", boardVO);
