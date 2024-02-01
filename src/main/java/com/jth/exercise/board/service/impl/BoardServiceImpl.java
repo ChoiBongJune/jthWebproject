@@ -20,6 +20,7 @@ public class BoardServiceImpl implements BoardService{
 
 		return boardDAO.insertBoard(boardVO);
 		
+		
 	}
 
 	@Override
